@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Plate_numbertxt"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/editbox"
+        android:ems="10"
+        android:hint="Plate Number"
+        android:inputType="number"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/CarColortxt"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Add_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/editbox"
+        android:ems="10"
+        android:hint="Car Color"
+        android:inputType="textPersonName"
+        android:padding="8dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Add_btn"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
+        android:background="@drawable/button"
+        android:text="Add Car"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/view_btn"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="107dp"
+        android:background="@drawable/button"
+        android:text="Display All cars"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="252dp"
+        android:layout_height="172dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="89dp"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>
